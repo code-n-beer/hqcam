@@ -1,0 +1,18 @@
+.topleft {
+  position: absolute;
+  top:0;
+  left:0;
+  color:white;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.notice {
+  width: 100%;
+  padding-top: 25%;
+  position: absolute;
+  top:0;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000;
+}  
+
+#feed { width: 100%; }

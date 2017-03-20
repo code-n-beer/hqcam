@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HQ Cam</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="theme-color" content="#000">
+</head>
+<body> 
+    <img id="feed" src="/latest.jpg" onClick="toggle()" alt="Camera feed">
+	<noscript>
+		<p class="topleft">Enable JavaScript for Live feed!</p>
+	</noscript>
+    <div id="pause" class="topleft" style="display: none;">
+        <h4>
+        <span class="glyphicon glyphicon-pause"></span>
+        <span>PAUSED</span>
+        </h4>
+    </div>
+    <div id="offline" class="notice" style="display: none;">
+      <h2>Stream offline</h2>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
